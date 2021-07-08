@@ -1,0 +1,18 @@
+@import "Css/govuk/all.css";
+
+.header-top {
+    margin-top: -15px;
+    background-color: #1d70b8;
+    padding-bottom: 15px;
+}
+
+.white {
+    color: #fff;
+}
+
+.widget-border {
+    padding-top: 15px;
+    border: 5px solid #0b0c0c;
+    border-width: 5px 0 0;
+    margin-top: 2.25em;
+}
