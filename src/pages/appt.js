@@ -7,17 +7,14 @@ export function Appointment() {
       <GridRow>
         <GridCol>
           <Panel title="Contact your work coach">
-            Contact your work coach via the journal to arrange an appointment
+            Contact your work coach via the journal to arrange an appointment with someone to help you.
           </Panel>
         </GridCol>
       </GridRow>
       <p className="govuk-body">
-        <a href="/store-manager" className="govuk-button govuk-button--start">
-          Return to job
-          <svg className="govuk-button__start-icon" xmlns="http://www.w3.org/2000/svg" width="17.5" height="19"
-               viewBox="0 0 33 40" aria-hidden="true" focusable="false">
-            <path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"></path>
-          </svg>
+        <a href="https://www.universal-credit.service.gov.uk/sign-in" target="new" className="govuk-button govuk-button--start">
+          Open Journal
+
         </a>
       </p>
     </Main>

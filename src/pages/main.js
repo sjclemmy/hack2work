@@ -21,22 +21,22 @@ export function LandingPage() {
       </GridRow>
       <GridRow>
         <GridCol>
-          <H3>Latest Jobs...</H3>
+          <H3>Latest Jobs</H3>
           <Paragraph>
             Heron Foods in Macclesfield are opening a new megastore and are recruiting a range of roles including:
           </Paragraph>
-          <ul>
+          <ul class="govuk-list">
             <ListItem>
-              <Link href="/store-manager">Store Managers</Link>
+              <Link href="/store-manager">Store Manager</Link>
             </ListItem>
             <ListItem>
-              <Link href="/opportunities">Assistant Managers</Link>
+              <Link href="/opportunities">Assistant Manager</Link>
             </ListItem>
             <ListItem>
-              <Link href="/opportunities">Cleaners</Link>
+              <Link href="/opportunities">Cleaner</Link>
             </ListItem>
             <ListItem>
-              <Link href="/opportunities">Till Operators</Link>
+              <Link href="/opportunities">Till Operator</Link>
             </ListItem>
           </ul>
           <Link href="/opportunities"><Button>All Job Opportunities</Button></Link>
@@ -44,22 +44,25 @@ export function LandingPage() {
       </GridRow>
       <GridRow>
         <GridCol>
-          <H3>Latest Training Opportunities...</H3>
-          <Paragraph>
-            Below are our latest opportunities...
-          </Paragraph>
-          <ul>
+          <H3>Latest Training Opportunities</H3>
+          <ul class="govuk-list">
             <ListItem>
-              <Link href="training">CSCS Training with badge</Link>
+              <Link href="#">CSCS Training with badge</Link>
             </ListItem>
             <ListItem>
-              <Link href="training">CSCS Training with badge</Link>
+              <Link href="#">SIA Security with badge</Link>
             </ListItem>
             <ListItem>
-              <Link href="training">CSCS Training with badge</Link>
+              <Link href="#">Customer Service</Link>
             </ListItem>
             <ListItem>
-              <Link href="training">CSCS Training with badge</Link>
+              <Link href="#">Step into Care</Link>
+            </ListItem>
+            <ListItem>
+              <Link href="#">Employability</Link>
+            </ListItem>
+            <ListItem>
+              <Link href="#">Microsoft Office</Link>
             </ListItem>
             <ListItem>
               <Link href="opportunities.js">See all training ...</Link>

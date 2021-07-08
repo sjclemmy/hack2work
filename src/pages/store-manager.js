@@ -124,7 +124,7 @@ export function StoreManager() {
           The store is yours!
           <br /><br />
 
-          As a Store Manager at Iceland, the store is yours! Clearly there will be guidelines and compliances to ensure that our
+          As a Store Manager at Heron Foods, the store is yours! Clearly there will be guidelines and compliances to ensure that our
           customers can enjoy their familiar format, but once they are met the rest is up to you. With exciting new lines arriving every
           day, you will have the opportunity to be commercially savvy and positively influence your KPIs and to identify potential areas to
           capitalise on.

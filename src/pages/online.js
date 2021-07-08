@@ -1,5 +1,5 @@
 import * as React from "react";
-import {GridCol, GridRow, Main} from "govuk-react";
+import {GridCol, GridRow, Link, Main} from "govuk-react";
 
 export function Online() {
   return (
@@ -12,9 +12,40 @@ export function Online() {
           <p className="govuk-body">
             There are a number of online providers who can help you with your application.
           </p>
-          <p className="govuk-body">
-            There are a number of online providers who can help you with your application.
-          </p>
+          <h2>Online Providers</h2>
+          <ul className="govuk-list">
+            <li>
+              <Link href="">National Careers</Link>
+            </li>
+            <li>
+              <Link href="">CV Builder</Link>
+            </li>
+          </ul>
+          <h2>Local Providers</h2>
+          <h3>Drop In Centres</h3>
+          <ul className="govuk-list">
+            <li>
+              <Link href="">Macclesfield Library</Link>
+            </li>
+            <li>
+              <Link href="">IT Access Drop In</Link>
+            </li>
+            <li>
+              <Link href="">IT Centre</Link>
+            </li>
+          </ul>
+          <h3>Work Clubs</h3>
+          <ul className="govuk-list">
+            <li>
+              <Link href="">Congleton Learning Centre at Congleton Library or Macclesfield Library</Link>
+            </li>
+            <li>
+              <Link href="">Knutsford Hub</Link>
+            </li>
+            <li>
+              <Link href="">Job Search Support Hub</Link>
+            </li>
+          </ul>
 
         </GridCol>
       </GridRow>

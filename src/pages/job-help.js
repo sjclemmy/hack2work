@@ -43,7 +43,7 @@ export class JobHelp extends React.Component {
               <fieldset className="govuk-fieldset">
                 <legend className="govuk-fieldset__legend govuk-fieldset__legend--l">
                   <h1 className="govuk-fieldset__heading">
-                    What kind of help do you want?
+                    What kind of help would you like?
                   </h1>
                 </legend>
                 <div id="sign-in-hint" className="govuk-hint">
@@ -63,7 +63,7 @@ export class JobHelp extends React.Component {
                            type="radio"
                            value="online" onChange={this.radioChange}/>
                     <label className="govuk-label govuk-radios__label" htmlFor="where-do-you-live-2">
-                      Online
+                      Online or Local Provider Support
                     </label>
                   </div>
                 </div>
